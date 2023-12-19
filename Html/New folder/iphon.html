@@ -1,0 +1,42 @@
+<html>
+<head>
+<title>Dcoment</title>
+<style>
+.box{
+height:200px;
+width:250px;
+font-size:72px;
+text-align:center;
+background-color:red;
+color:white;
+}
+@media(max-width:300px){
+#box-1{
+display:block;
+background-color:cyan;
+}
+@media(max-width:500px) and(min-width:300){
+#box-2{
+display:block;
+background-color:blueviolet;
+}
+@media(max-width:800px) and(min-width:500){
+#box-3{
+display:block;
+background-color:yellow;
+}
+@media(min-width:800){
+#box-4{
+display:block;
+background-color:green;
+}
+}
+</style>
+</head>
+<body>
+ <div class="box" id="box-1">mai ak iphon hoon</div>
+  <div class="box" id="box-2">mai ak tablat hoon</div>
+   <div class="box" id="box-3">mai ak computer hoon</div>
+    <div class="box" id="box-4">mai ak widescreen computer hoon</div>
+</body>
+</html>

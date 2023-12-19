@@ -1,0 +1,56 @@
+<html>
+<head>
+<title>Conic gradient</title>
+<style>
+body{
+background-image:url(img/external.jpg);
+}
+.box{
+border:1px solid red;
+width:200px;
+height:200px;
+float:left;
+margin:20px;
+border-radius:50%;
+}
+.b1{
+background-image:conic-gradient(red,green,blue);
+}
+.b2{
+background-image:conic-gradient(from 45deg,red,green,blue);
+}
+.b3{
+background-image:conic-gradient(red,green,blue,red);
+}
+.b4{
+background-image:conic-gradient(at.40%.50%,red.180deg,green.270deg,blue);
+}
+.b5{
+background-image:
+repeating-conic-gradient(green 0deg ,red 10deg,blue 0deg ,blue 20deg);
+}
+.b6{
+background-image:
+repeating-conic-gradient(rgba(0,0,0,0) 0deg,rgba(0,0,0) 20deg);
+}
+.b7{
+background-image:
+repeating-conic-gradient(green 0deg ,green 90deg,blue 90deg ,blue 180deg);
+}
+.b8{
+background-image:
+conic-gradient(red 90deg ,red 90deg,blue 180deg ,blue 180deg ,yellow 270deg,yellow 270deg );
+}
+</style>
+</head>
+<body>
+<div class="box b1"></div>
+<div class="box b2"></div>
+<div class="box b3"></div>
+<div class="box b4"></div>
+<div class="box b5"></div>
+<div class="box b6"></div>
+<div class="box b7"></div>
+<div class="box b8"></div>
+</body>
+</html>

@@ -1,0 +1,26 @@
+CSS (styles.css):
+
+css
+Copy code
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card {
+    width: 300px;
+    height: 200px;
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.5s ease;
+}
+
+.card:hover {
+    transform: translateX(50px); /* Adjust the value to control the distance of the animation */
+}

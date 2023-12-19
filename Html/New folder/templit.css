@@ -1,0 +1,512 @@
+body{
+font-family: Verdana,sans-serif;
+font-size: 15px;
+line-height: 1.5;
+margin: 0;
+box-sizing: inherit;
+}
+.w3-bar{
+white-space: normal;
+padding: 8px 16px;
+float: left;
+width: auto;
+border: none;
+display: block;
+outline: 0;
+  color: #fff !important;
+  background-color: #009688 !important;
+  user-select: none;
+  overflow: hidden;
+text-decoration: none;
+text-align: center;
+cursor: pointer;
+box-sizing: inherit;
+font-family: Verdana,sans-serif;
+font-size: 15px;
+line-height: 1.5;
+}
+.w3-top{
+top: 0;
+position: fixed;
+width: 100%;
+z-index: 1;
+box-sizing: inherit;
+font-family: Verdana,sans-serif;
+font-size: 15px;
+line-height: 1.5;
+}
+.w3-theme{
+color: #fff !important;
+background-color: #000000 !important;
+text-align: left !important;
+width: 100%;
+overflow: hidden;
+box-sizing: inherit;
+font-family: Verdana,sans-serif;
+font-size: 15px;
+line-height: 1.5;
+}
+.w3-theme-d2{
+color: #fff !important;
+background-color: #000000 !important;
+text-align: left !important;
+width: 100%;
+overflow: hidden;
+box-sizing: inherit;
+  font-family: Verdana,sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+}
+.w3-teal{
+white-space: normal;
+padding: 8px 16px;
+float: left;
+width: auto;
+border: none;
+display: block;
+outline: 0;
+color: #fff !important;
+background-color: #009688 !important;
+user-select: none;
+overflow: hidden;
+text-decoration: none;
+text-align: center;
+cursor: pointer;
+box-sizing: inherit;
+font-family: Verdana,sans-serif;
+font-size: 15px;
+line-height: 1.5;
+}
+.w3-dropdown{
+	position: static;
+float: left;
+cursor: pointer;
+box-sizing: inherit;
+color: #fff !important;
+text-align: left !important;
+font-family: Verdana,sans-serif;
+font-size: 15px;
+line-height: 1.5;
+}
+.w3-bar-item{
+width: 100%;
+display: block;
+padding: 8px 16px;
+text-align: left;
+border: none;
+white-space: normal;
+float: none;
+outline: 0;
+user-select: none;
+overflow: hidden;
+text-decoration: none;
+color: inherit;
+background-color: inherit;
+cursor: pointer;
+box-sizing: inherit;
+font-family: Verdana,sans-serif;
+font-size: 15px;
+line-height: 1.5;
+}
+.w3-button{
+white-space: normal;
+border: none;
+display: inline-block;
+padding: 8px 16px;
+vertical-align: middle;
+overflow: hidden;
+text-decoration: none;
+color: inherit;
+background-color: inherit;
+text-align: center;
+cursor: pointer;
+-webkit-appearance: button;
+-webkit-appearance: button;
+font: inherit;
+margin: 0;
+box-sizing: inherit;
+}
+.fa{
+display: inline-block;
+font: normal normal normal 14px/1 FontAwesome;
+box-sizing: inherit;
+white-space: normal;
+color: inherit;
+text-align: cente
+cursor: pointer;
+text-transform: none;
+}
+.w3-hover-teal{
+	color: #fff !important;
+background-color: #000000 !important;
+font-size: 24px !important;
+user-select: none;
+border: none;
+display: inline-block;
+padding: 8px 16px;
+vertical-align: middle;
+overflow: hidden;
+text-decoration: none;
+text-align: center;
+cursor: pointer;
+white-space: nowrap;
+-webkit-appearance: button;
+text-transform: none;
+font: inherit;
+box-sizing: inherit;
+}
+.w3-quarter{
+	text-align:center;
+	width: 24.99999%;
+	float: left;
+	  box-sizing: inherit;
+text-align: center !important;
+font-family: Verdana,sans-serif;
+font-size: 15px;
+line-height: 1.5;
+}
+.w3-circle{
+	width: 45%;
+	border-radius: 100%;
+	vertical-align: middle;
+	border-style: none;
+	box-sizing: inherit;
+	text-align: center !important;
+	font-family: Verdana,sans-serif;
+font-size: 15px;
+line-height: 1.5;
+	
+}
+.w3-row{
+	text-align:center;
+	
+}
+.w3-row-padding{
+	color: #fff !important;
+background-color: #333333 !important;
+padding-top: 64px !important;
+padding-bottom: 64px !important;
+padding: 0 8px;
+box-sizing: inherit;
+font-family: Verdana,sans-serif;
+font-size: 15px;
+line-height: 1.5;
+}
+.w3-quarter1{
+	padding: 0 8px;
+	width: 24.99999%;
+	float: left;
+	box-sizing: inherit;
+	color: #fff !important;
+	font-family: Verdana,sans-serif;
+font-size: 15px;
+line-height: 1.5;
+	
+}
+h2{
+	
+	font-family: "Segoe UI",Arial,sans-serif;
+font-weight: 400;
+margin: 10px 0;
+font-size: 30px;
+box-sizing: inherit;
+color: #fff !important;
+ line-height: 1.5;
+text-align: center !important;
+}
+.w3-card{
+	
+	color: #000 !important;
+background-color: #fff !important;
+box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+box-sizing: inherit;
+font-family: Verdana,sans-serif;
+font-size: 15px;
+line-height: 1.5;
+}
+.w3-container{
+	
+	padding: 0.01em 16px;
+	box-sizing: inherit;
+	color: #000 !important;
+	font-family: Verdana,sans-serif;
+font-size: 15px;
+line-height: 1.5;
+}
+.w3-padding-64{
+	
+	padding-top: 64px !important;
+padding-bottom: 64px !important;
+text-align: center !important;
+padding: 0 8px;
+box-sizing: inherit;
+font-family: Verdana,sans-serif;
+font-size: 15px;
+line-height: 1.5;
+}
+w3-h{
+	text-align: center !important;
+	font-family: Verdana,sans-serif;
+font-size: 15px;
+line-height: 1.5;
+}
+.w3-third{
+	
+	padding: 0 8px;
+	margin-bottom: 16px !important;
+	width: 33.33333%;
+	float: left;
+	box-sizing: inherit;
+	text-align: center !important;
+	font-family: Verdana,sans-serif;
+font-size: 15px;
+line-height: 1.5;
+}
+.w3-ul{
+	
+	border: 1px solid #ccc !important;
+	list-style-type: none;
+padding: 0;
+margin: 0;
+box-sizing: inherit;
+text-align: center !important;
+font-family: Verdana,sans-serif;
+font-size: 15px;
+line-height: 1.5;
+}
+.w3-theme1{
+padding: 8px 16px;
+border-bottom: 1px solid #ddd;
+color: #fff !important;
+background-color: #000000 !important;
+  box-sizing: inherit;
+list-style-type: none;
+  text-align: center !important;
+font-family: Verdana,sans-serif;
+font-size: 15px;
+line-height: 1.5;	
+	
+}
+.w3-xlarge1{
+	
+	font-size: 24px !important;
+	box-sizing: inherit;
+	color: #fff !important;
+	list-style-type: none;
+	text-align: center !important;
+	font-family: Verdana,sans-serif;
+	line-height: 1.5;
+}
+.w3-padding-16{
+	
+	padding: 8px 16px;
+	border-bottom: 1px solid #ddd;
+	padding-top: 16px !important;
+padding-bottom: 16px !important;
+box-sizing: inherit;
+list-style-type: none;
+text-align: center !important;
+font-family: Verdana,sans-serif;
+font-size: 15px;
+line-height: 1.5;
+}
+.w3-wide{
+	
+	letter-spacing: 4px;
+	font-family: "Segoe UI",Arial,sans-serif;
+font-weight: 400;
+margin: 10px 0;
+}
+.fa1{
+	display: inline-block;
+font: normal normal normal 14px/1 FontAwesome;
+font-size: inherit;
+text-rendering: auto;
+box-sizing: inherit;
+letter-spacing: 4px;
+list-style-type: none;
+text-align: center !important;
+}
+.w3-opacity{
+	color: #fff !important;
+background-color: #009688 !important;
+padding: 12px 24px !important;
+user-select: none;
+border: none;
+display: inline-block;
+vertical-align: middle;
+overflow: hidden;
+text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+-webkit-appearance: button;
+text-transform: none;
+font: inherit;
+margin: 0;
+box-sizing: inherit;
+list-style-type: none;
+}
+.w3-padding-24{
+	
+	border-bottom: none;
+	padding: 8px 16px;
+	color: #000 !important;
+background-color: #f0f0f0 !important;
+padding-top: 24px !important;
+padding-bottom: 24px !important;
+box-sizing: inherit;
+list-style-type: none;
+text-align: center !important;
+font-family: Verdana,sans-serif;
+font-size: 15px;
+line-height: 1.5;
+}
+.fa2{
+	display: inline-block;
+font: normal normal normal 14px/1 FontAwesome;
+font-size: inherit;
+text-rendering: auto;
+box-sizing: inherit;
+color: #fff !important;
+text-align: center;
+cursor: pointer;
+white-space: nowrap;
+text-transform: none;
+  list-style-type: none;
+
+}
+.w3-container{
+	position: relative;
+	padding: 0.01em 16px;
+	box-sizing: inherit;
+	font-family: Verdana,sans-serif;
+font-size: 15px;
+line-height: 1.5;
+}
+.w3-button1{
+	
+	position: absolute;
+top: -28px;
+right: 24px;
+color: #fff !important;
+background-color: #009688 !important;
+font-size: 24px !important;
+border-radius: 50%;
+user-select: none;
+border: none;
+display: inline-block;
+padding: 8px 16px;
+overflow: hidden;
+text-decoration: none;
+text-align: center;
+cursor: pointer;
+white-space: nowrap;
+box-sizing: inherit;
+box-sizing: inherit;
+line-height: 1.5;
+}
+.w3-center{
+	color: #fff !important;
+background-color: #000000 !important;
+padding-top: 32px !important;
+padding-bottom: 32px !important;
+text-align: center !important;
+padding: 0.01em 16px;
+  display: block;
+  box-sizing: inherit;
+font-family: Verdana,sans-serif;
+font-size: 15px;
+line-height: 1.5;
+}
+.w3-theme-l5{
+	color: #000 !important;
+background-color: #f0f0f0 !important;
+padding-top: 64px !important;
+padding-bottom: 64px !important;
+padding: 0.01em 16px;
+box-sizing: inherit;
+font-family: Verdana,sans-serif;
+font-size: 15px;
+line-height: 1.5;
+}
+.w3-row{
+	box-sizing: inherit;
+	color: #000 !important;
+	font-family: Verdana,sans-serif;
+font-size: 15px;
+line-height: 1.5;
+}
+.w3-col m5{
+	width: 41.66666%;
+	float: left;
+	box-sizing: inherit;
+	color: #000 !important;
+	font-family: Verdana,sans-serif;
+font-size: 15px;
+line-height: 1.5;
+}
+.w3-padding-16{
+	padding-top: 16px !important;
+padding-bottom: 16px !important;
+box-sizing: inherit;
+color: #000 !important;
+font-family: Verdana,sans-serif;
+font-size: 15px;
+line-height: 1.5;
+}
+.w3-buttombar{
+	border-color: #009688 !important;
+	border-bottom: 6px solid #ccc !important;
+	font-size: 24px !important;
+	box-sizing: inherit;
+	color: #000 !important;
+	font-family: Verdana,sans-serif;
+	line-height: 1.5;
+}
+h3{
+	font-family: "Segoe UI",Arial,sans-serif;
+font-weight: 400;
+margin: 10px 0;
+font-size: 24px;
+box-sizing: inherit;
+color: #000 !important;
+line-height: 1.5; 
+}
+.item{
+	
+	box-sizing: inherit;
+	color: #000 !important;
+	font-family: Verdana,sans-serif;
+font-size: 15px;
+line-height: 1.5;
+}
+.fa5{
+	display: inline-block;
+font: normal normal normal 14px/1 FontAwesome; 
+text-rendering: auto;
+color: #009688 !important;
+font-size: 24px !important;
+box-sizing: inherit;
+}
+.w3-col m7{
+	width: 58.33333%;
+	float: left;
+	box-sizing: inherit;
+	color: #000 !important;
+	font-family: Verdana,sans-serif;
+font-size: 15px;
+line-height: 1.5;
+}
+.w3-white{
+	color: #000 !important;
+background-color: #fff !important;
+padding-top: 16px !important;
+padding-bottom: 16px !important;
+box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
+padding: 0.01em 16px;
+box-sizing: inherit;
+font-family: Verdana,sans-serif;
+font-size: 15px;
+line-height: 1.5;
+}

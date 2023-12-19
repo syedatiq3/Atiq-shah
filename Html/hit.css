@@ -1,0 +1,182 @@
+body {
+    color: #000 !important;
+  background-color:#f1f1f1 !important;
+} 
+.search-bar{
+	width: 50%;
+	background: white;
+display: flex;
+border-radius: 60px;
+margin-left: 160px;
+color: #000 !important;
+}
+.search-bar input{
+background:transparent;
+flex:1;
+border:0;
+outline:none;
+font-size:20px;
+color:#cac7ff;
+}
+::placeholder{
+color:#cac7ff;
+}
+.img{
+margin:1%;
+margin-left:650px;
+height:2px;
+img-radius:50%;
+}
+.container{
+width: 900px;
+margin: auto;
+border: 1px solid rgb(127, 255, 0);
+border-radius: 5px;
+height: 100px;
+color: #000 !important;
+margin-top: 35px;	
+}
+.search-bar button img{
+	width: 30px;
+	cursor: pointer;
+color: #000 !important;
+}
+.search-bar button{
+	border: 0;
+border-radius: 50%;
+width: 35px;
+height: 60px;
+background: rgb(127, 255, 0);
+cursor: pointer;
+color: #000 !important;
+}
+/* Fixed sidenav, full height */
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color:rgb(127, 255, 0);
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Style the sidenav links and the dropdown button */
+.sidenav p, .dropdown-btn {
+  padding: 2px 5px 6px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  color:blue;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+/* On mouse-over */
+.sidenav p:hover, .dropdown-btn:hover {
+  color:blue;
+}
+article {
+float:left;
+  width: 90%;
+  background-color:#f1f1f1;
+  margin:1;
+  height: 2px; /* only for demonstration, should be removed */
+}
+  .p1{
+  border:10px solid blue;
+  border-radius:15px;
+  color:white;
+  background-color:blue;
+  }
+ .p2{
+ background-color:blue;
+ }
+  div.main{
+  width:300px;
+  padding:23px;
+  margin:10%;
+  }
+  h2{
+  border:1px solid blue;
+  background-color:blue;
+  color:white;
+  text-align:center;
+  padding:20px;
+  font-family:sans-serif;
+  }
+  div.register{
+  background-color:white;
+  width:130%;
+  font-size:15px;
+  border-radius:10px;
+  border:1px solid rgba(255,255,255,0.3);
+  box-shadow:2px 2px 15px rgba(0,0,0,0.3);
+  color:blue;
+  margin-left:80px;
+  }
+  form#register{
+ margin-left:40px;
+  }
+  label{
+  font-family:sans-serif;
+  font-size:18px;
+  font-style:italic;
+  }
+  input#name{
+  width:300px;
+  bolder:1px solid #ddd;
+  border-radius:3px;
+  outline:0;
+  padding:8px;
+  background-color:#fff;
+  box-shadow:inset 1px 1px 5px rgba(0,0,0,0.3);
+  }
+  div.register1{
+  background-color:white;
+  width:140%;
+  font-size:18px;
+  border-radius:10px;
+  border:1px solid rgba(255,255,255,0.3);
+  box-shadow:2px 2px 15px rgba(0,0,0,0.3);
+  color:blue;
+ 
+  }
+  .rightsidebar{
+  background-color:white;
+height:10px;
+width:340px;
+float:right;
+border-radius:20px;
+margin:150px;
+  }
+  .button1{
+	  margin:30px;
+	  color:white;
+	  background-color:blue;
+	  border-radius:10px;
+  }
+  .fa-solid{
+	font-size:30px;
+	padding:5px;
+	color:blue;
+}
+.fa-brands{
+	font-size:30px;
+	padding:5px;
+	color:blue;
+}
+.fa-solid{
+	font-size:30px;
+	padding:5px;
+}
+.fa-regular{
+	font-size:30px;
+	padding:5px;
+}

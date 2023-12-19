@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Card Animation</title>
+</head>
+<body>
+    <div class="card">
+        <div class="card-content">
+            <!-- Card content goes here -->
+        </div>
+    </div>
+    <button id="animate-button">Animate</button>
+    <script src="script.js"></script>
+</body>
+</html>
+CSS Styles:
+Create a CSS file (styles.css) to style your card and define the initial position.
+css
+Copy code
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card {
+    width: 200px;
+    height: 300px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    overflow: hidden;
+    transform: translateX(-100%);
+    transition: transform 0.5s ease-in-out;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+#animate-button {
+    margin-top: 20px;
+}
+JavaScript for Animation:
+Create a JavaScript file (script.js) to handle the animation when the "Animate" button is clicked.
+javascript
+Copy code
+document.addEventListener("DOMContentLoaded", function () {
+    const card = document.querySelector(".card");
+    const animateButton = document.getElementById("animate-button");
+
+    animateButton.addEventListener("click", function () {
+        // Toggle the animation by changing the transform property
+        card.style.transform = card.style.transform === "translateX(-100%)" ? "translateX(0%)" : "translateX(-100%)";
+    });
+});

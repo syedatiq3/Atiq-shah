@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html><head>
+<title>W3.CSS Template</title>
+<link rel="stylesheet" href="head.css">
+<link rel="stylesheet" href="./W3.CSS Template_files/font-awesome.min.css">
+</head>
+<body id="myPage">
+
+<!-- Sidebar on click -->
+<nav class="w3-white" style="display:none;z-index:2" id="mySidebar">
+  <a  href="javascript:void(0)" onclick="w3_close() class="w3-y="">Close
+    <i class="fa fa-remove"></i>
+  </a>
+  <a href="#" class="w3-bar-item">Link 1</a>
+  <a href="#" class="w3-bar-item">Link 2</a>
+  <a href="#" class="w3-bar-item">Link 3</a>
+  <a href="#" class="w3-bar-item">Link 4</a>
+  <a href="#" class="w3-bar-item">Link 5</a>
+</nav>
+
+<!-- Navbar -->
+<div class="w3-top">
+ <div class="w3-theme-d2">
+  <a class="w3-button1" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+  <a href="#" class="w3-bar"><i class="fa fa-home"></i>Logo</a>
+  <a href="#team" class="w3-hover-white">Team</a>
+  <a href="#work" class="w3-hover-white">Work</a>
+  <a href="#pricing" class="w3-hover-white">Price</a>
+  <a href="#contact" class="w3-hover-white">Contact</a>
+    <div class="w3-dropdown-hover">
+    <button class="w3-h" title="Notifications">Dropdown <i class="fa1 fa-caret-down"></i></button>     
+    <div class="w3-dropdown-content">
+      <a href="#" class="text">Link</a>
+      <a href="#" class="text">Link</a>
+      <a href="#" class="text">Link</a>
+    </div>
+  </div>
+  <a href="#" class="w3-right" title="Search"><i class="fa fa-search"></i></a>
+ </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-hide-medium">
+    <a href="#team" class="w3-button2">Team</a>
+    <a href="#work" class="w3-button2">Work</a>
+    <a href="#pricing" class="w3-button2">Price</a>
+    <a href="#contact" class="w3-button2">Contact</a>
+    <a href="#" class="w3-button2">Search</a>
+  </div>
+</div>
+
+<!-- Image Header -->
+<div class="w3-animate-opacity">
+  <img src="./W3.CSS Template_files/sailboat.jpg" alt="boat" style="width:100%;min-height:350px;max-height:600px;">
+  <div class="w3-display-bottomleft">  
+    <button onclick="document.getElementById(&#39;id01&#39;).style.display=&#39;block&#39;" class="w3-xlarge" title="Go To W3.CSS">LEARN W3.CSS</button>
+  </div>
+</div>
+
+<!-- Modal -->
+<div id="id01" class="w3-modal">
+  <div class="w3-animate-top">
+    <header class="container"> 
+      <span onclick="document.getElementById(&#39;id01&#39;).style.display=&#39;none&#39;" class="topright"><i class="fa fa-remove"></i></span>
+      <h4>Oh snap! We just showed you a modal..</h4>
+      <h5>Because we can <i class="fa fa-smile-o"></i></h5>
+    </header>
+    <div class="w3-container">
+      <p>Cool huh? Ok, enough teasing around..</p>
+      <p>Go to our <a class="w3-text-teal1" href="https://www.w3schools.com/w3css/default.asp">W3.CSS Tutorial</a> to learn more!</p>
+    </div>
+    <footer class="w3-teal">
+      <p>Modal footer</p>
+    </footer>
+  </div>
+</div>
+
+<!-- Team Container -->
+<div class="w3-padding-64" id="team">
+<h2>OUR TEAM</h2>
+<p class="p1">Meet the team - our office rats:</p>
+
+<div class="w3-row"><br>
+
+<div class="w3-quarter">
+  <img src="./W3.CSS Template_files/avatar.jpg" alt="Boss" style="width:45%" class="w3-circle">
+  <h3>Johnny Walker</h3>
+  <p>Web Designer</p>
+</div>
+
+<div class="w3-quarter">
+  <img src="./W3.CSS Template_files/avatar.jpg" alt="Boss" style="width:45%" class="w3-circle">
+  <h3>Rebecca Flex</h3>
+  <p>Support</p>
+</div>
+
+<div class="w3-quarter">
+  <img src="./W3.CSS Template_files/avatar.jpg" alt="Boss" style="width:45%" class="w3-circle">
+  <h3>Jan Ringo</h3>
+  <p>Boss man</p>
+</div>
+
+<div class="w3-quarter">
+  <img src="./W3.CSS Template_files/avatar.jpg" alt="Boss" style="width:45%" class="w3-circle">
+  <h3>Kai Ringo</h3>
+  <p>Fixer</p>
+</div>
+
+</div>
+</div>
+
+<!-- Work Row -->
+<div class="w3-row-padding" id="work">
+
+<div class="w3-quarter1">
+<h2>Our Work</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</div>
+
+<div class="w3-quarter2">
+<div class="w3-card">
+  <img src="./W3.CSS Template_files/snow.jpg" alt="Snow" style="width:100%">
+  <div class="w3-container1">
+  <h3>Customer 1</h3>
+  <h4>Trade</h4>
+  <p>Blablabla</p>
+  <p>Blablabla</p>
+  <p>Blablabla</p>
+  <p>Blablabla</p>
+  </div>
+  </div>
+</div>
+
+<div class="w3-quarter2">
+<div class="w3-card">
+  <img src="./W3.CSS Template_files/lights.jpg" alt="Lights" style="width:100%">
+  <div class="w3-container1">
+  <h3>Customer 2</h3>
+  <h4>Trade</h4>
+  <p>Blablabla</p>
+  <p>Blablabla</p>
+  <p>Blablabla</p>
+  <p>Blablabla</p>
+  </div>
+  </div>
+</div>
+
+<div class="w3-quarter2">
+<div class="w3-card">
+  <img src="./W3.CSS Template_files/mountains.jpg" alt="Mountains" style="width:100%">
+  <div class="w3-container1">
+  <h3>Customer 3</h3>
+  <h4>Trade</h4>
+  <p>Blablabla</p>
+  <p>Blablabla</p>
+  <p>Blablabla</p>
+  <p>Blablabla</p>
+  </div>
+  </div>
+</div>
+
+</div>
+
+<!-- Container -->
+<div class="w3-container2" style="position:relative">
+  <a onclick="w3_open()" class="w3-button2" style="position:absolute;top:-28px;right:24px">+</a>
+</div>
+
+<!-- Pricing Row -->
+<div class="w3-center"id="pricing">
+    <h2>PRICING</h2>
+    <p class="p1">Choose a pricing plan that fits your needs.</p><br>
+    <div class="w3-third">
+      <ul class="w3-hover-shadow">
+        <li class="w3-theme2">
+          <p class="w3-xlarge1">Basic</p>
+        </li>
+        <li class="w3-padding-16"><b>10GB</b> Storage</li>
+        <li class="w3-padding-16"><b>10</b> Emails</li>
+        <li class="w3-padding-16"><b>10</b> Domains</li>
+        <li class="w3-padding-16"><b>Endless</b> Support</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide"><i class="fa fa-usd"></i> 10</h2>
+          <span class="w3-opacity">per month</span>
+        </li>
+        <li class="w3-theme-l5">
+          <button class="w3-padding-large"><i class="fa fa-check"></i> Sign Up</button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third">
+      <ul class="w3-hover-shadow">
+        <li class="w3-theme2">
+          <p class="w3-xlarge1">Pro</p>
+        </li>
+        <li class="w3-padding-16"><b>25GB</b> Storage</li>
+        <li class="w3-padding-16"><b>25</b> Emails</li>
+        <li class="w3-padding-16"><b>25</b> Domains</li>
+        <li class="w3-padding-16"><b>Endless</b> Support</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide"><i class="fa fa-usd"></i> 25</h2>
+          <span class="w3-opacity">per month</span>
+        </li>
+        <li class="w3-theme-l5">
+          <button class="w3-padding-large"><i class="fa fa-check"></i> Sign Up</button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third">
+      <ul class="w3-hover-shadow">
+        <li class="w3-theme2">
+          <p class="w3-xlarge1">Premium</p>
+        </li>
+        <li class="w3-padding-16"><b>50GB</b> Storage</li>
+        <li class="w3-padding-16"><b>50</b> Emails</li>
+        <li class="w3-padding-16"><b>50</b> Domains</li>
+        <li class="w3-padding-16"><b>Endless</b> Support</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide"><i class="fa fa-usd"></i> 50</h2>
+          <span class="w3-opacity">per month</span>
+        </li>
+        <li class="w3-theme-l5">
+          <button class="w3-padding-large"><i class="fa fa-check"></i> Sign Up</button>
+        </li>
+      </ul>
+    </div>
+</div>
+
+<!-- Contact Container -->
+<div class="w3-container3"id="contact">
+  <div class="w3-row1">
+    <div class="w3-col m5">
+    <div class="w3-padding-17"><span class="w3-bottombar">Contact Us</span></div>
+      <h3>Address</h3>
+      <p>Swing by for a cup of coffee, or whatever.</p>
+      <p><i class="fa fa-map-marker w3-text-teal w3-xlarge"></i>&nbsp;&nbsp;Chicago, US</p>
+      <p><i class="fa fa-phone w3-text-teal w3-xlarge"></i>&nbsp;&nbsp;+00 1515151515</p>
+      <p><i class="fa fa-envelope-o w3-text-teal w3-xlarge"></i>&nbsp;&nbsp;test@test.com</p>
+    </div>
+    <div class="w3-col1 m7">
+      <form class="w3-container4" action="https://www.w3schools.com/action_page.php" target="_blank">
+      <div class="w3-section">      
+        <label>Name</label>
+        <input class="w3-input" type="text" name="Name" required="">
+      </div>
+      <div class="w3-section">      
+        <label>Email</label>
+        <input class="w3-input" type="text" name="Email" required="">
+      </div>
+      <div class="w3-section">      
+        <label>Message</label>
+        <input class="w3-input" type="text" name="Message" required="">
+      </div>  
+      <input class="w3-check" type="checkbox" checked="" name="Like">
+      <label>I Like it!</label>
+      <button type="submit" class="w3-button4">Send</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Image of location/map -->
+<img src="./W3.CSS Template_files/map.jpg" class="w3-image w3-greyscale-min" style="width:100%;">
+
+<!-- Footer -->
+<footer class="w3-padding-32">
+  <h4>Follow Us</h4>
+  <a class="w3-large" href="javascript:void(0)" title="Facebook"><i class="fa fa-facebook"></i></a>
+  <a class="w3-large" href="javascript:void(0)" title="Twitter"><i class="fa fa-twitter"></i></a>
+  <a class="w3-large" href="javascript:void(0)" title="Google +"><i class="fa fa-google-plus"></i></a>
+  <a class="w3-large" href="javascript:void(0)" title="Google +"><i class="fa fa-instagram"></i></a>
+  <a class="w3-large" href="javascript:void(0)" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+  <p class="p2">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="a1">w3.css</a></p>
+
+  <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right">
+    <span class="w3-text w3-padding w3-teal w3-hide-small">Go To Top</span>   
+    <a class="w3-button w3-theme" href="#myPage"><span class="w3-xlarge">
+    <i class="fa fa-chevron-circle-up"></i></span></a>
+  </div>
+</footer>
+
+<script>
+// Script for side navigation
+function w3_open() {
+  var x = document.getElementById("mySidebar");
+  x.style.width = "300px";
+  x.style.paddingTop = "10%";
+  x.style.display = "block";
+}
+
+// Close side navigation
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+
+// Used to toggle the menu on smaller screens when clicking on the menu button
+function openNav() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+
+</body></html>

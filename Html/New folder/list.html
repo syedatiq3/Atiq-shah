@@ -1,0 +1,61 @@
+<html>
+<head>
+<title></title>
+<style>
+}
+*{
+margin:0;
+padding:0;
+}
+.container{
+background-image:linear-gradient(red,yellow);
+height:700px;
+display:grid;
+/*grid-template-rows:100px 100px 100px;
+grid-template-columns:100px 100px 100px;*/
+grid-template-rows:repeat(3,1fr);
+grid-template-columns:1fr 1fr 1fr;
+grid-template-rows:43px 1fr 43px;
+row-gap:12px;
+column-gap:12px;
+justify-item:center;
+}
+.item{
+background-image:linear-gradient(red,yellow,green,blue,gray);
+/*height:122px;
+width:122px;*/
+}
+.item1{
+/*grid-column-start: 1;
+grid-column-end: 4;*/
+grid-column:1/ span 3;
+background:black;
+color:white;
+}
+.footer{
+grid-column-start: 1;
+grid-column-end: 4;
+background:yellow;
+padding: 15px;
+margin:auto;
+}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="item item1">
+<h1>This is a Header </h1>
+</div>
+<div class="item">
+
+</div>
+<div class="item"></div>
+<div class="item"></div>
+<div class="item footer">  
+<a href="#">ilst</a>
+<a href="#">ilst</a>
+<a href="#">ilst</a>
+</div>
+</div>
+</body>
+</html>

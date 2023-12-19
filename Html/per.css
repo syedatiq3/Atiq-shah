@@ -1,0 +1,12 @@
+img{
+height:	100%;
+width:100%;
+color:red;
+}
+@media only screen and (max-width: 600rem) {
+  body {
+    background-color:hsl(120,60%,70%);
+  }
+  h1{
+	text-align:center;
+}

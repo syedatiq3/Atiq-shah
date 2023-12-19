@@ -1,0 +1,39 @@
+<html>
+<head>
+<title>my for form</title>
+</head>
+<body>
+<h1>contact us</h1>
+<form>
+name:<input type="text" name="name" placeholder="enter your name" maxlength="10" sizes="15"/><br><br>
+password:<input type="password"name="password"placeholder="password"maxlength="12"sizes="17"/><br><br>
+massage:<textarea name="textarea"cols="30"rows="30"style="resize:none;"></textarea><br
+<h3>Checkbox<h3>
+<input type="checkbox"name="skills"value="a">Html<br><br>
+<input type="checkbox"name="skills"value="b">xHtml<br><br>
+<input type="checkbox"name="skills"value="c">css<br><br>
+<input type="checkbox"name="skills"value="d">javascript<br><br>
+<input type="checkbox"name="skills"value="e">php<br><br>
+<h2>Radio Buttons</h2>
+<input type="radio"name="gender"value="male">male
+<input type="radio"name="gendr"value="female">female
+<input type="radio"name="gender"value="other">other<br><br>
+<h2>select Boxes</h2>
+<select name="day" multiple="multiple">
+<option selected="selected"value="">select month</option>
+<option value="mon">monday</option>
+<option value="tue">tuesday</option>
+<option value="wed">wednesday</option>
+<option value="thu">thursday</option>
+<option value="fri">friday</option>
+<option value="sat">saturday</option>
+<option value="sun">sunday</option>
+<br><br>
+</select>
+
+
+<button type="submit">sent massage</button>
+<button type="reset">clear it</button>
+</form>
+</body>
+</html>

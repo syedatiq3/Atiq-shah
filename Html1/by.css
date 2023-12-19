@@ -1,0 +1,90 @@
+.div1{
+height:50px;
+width:100%;
+background-color:yellow;
+text-align:center;
+color:black;
+text-decoration:none;	
+}
+body{
+	height:190px;
+	  background-color:#001538;
+	  color:white;
+}
+header{
+	height:200px;
+	width:100%;
+	background-color: #fff;
+}
+.search-bar{
+width: 100%;
+  max-width: 1000px;
+  background: lightgray;
+  display: flex;
+  margin-left: 100px;
+  color: #000 !important;
+  margin-top:30px;
+}
+.search-bar input{
+background:transparent;
+flex:1;
+border:0;
+outline:none;
+padding:25px 20px;
+font-size:20px;
+color:white;
+}
+::placeholder{
+color:#cac7ff;
+}
+.div2{
+	
+}
+a{
+text-decoration:none;	
+color:bluck;
+margin:10px;
+}
+p{
+text-align:center;	
+}
+.w3-row{
+	box-sizing: inherit;
+	text-align: center !important;
+	font-family: Verdana,sans-serif;
+font-size: 10px;
+line-height: 1.5;
+}
+.text1{
+	 width: 12%;
+	float: left;
+	box-sizing: inherit;
+	text-align: center !important;
+	font-family: Verdana,sans-serif;
+font-size: 13px;
+line-height: 1.5;
+  border-radius: 15px;
+  background-color:white;
+  color: white;
+  padding: 40px;
+  text-decoration: none;
+  display: inline-block;
+  margin:10px;
+  cursor: pointer;
+  text-align:center;
+  height:400px;
+  text-decoration:none;
+}
+.img5{
+	width:200px;
+	height:170px;
+}
+.button1{
+	margin-left:40%;
+	padding:10px;
+	background:green;
+}
+h1{
+text-align:center;	
+}
+	

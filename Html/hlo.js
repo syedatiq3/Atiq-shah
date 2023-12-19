@@ -1,0 +1,1 @@
+document.write("<i>js external</i>");
